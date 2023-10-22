@@ -1,0 +1,288 @@
+*{
+    border: 0;
+    margin: 0px;
+}
+
+body{
+ overflow-x: clip;
+}
+header{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+
+
+
+
+}
+header #logo{
+    align-items: flex-end;
+
+}
+
+nav a{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #a25d2b;
+    padding-left: 20px;
+    text-decoration: none;
+} header img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
+nav a:hover{
+    color: #b7845b;
+
+}
+main{
+    width: 100%;
+
+}
+
+
+
+  main #frontimg {
+      background: url("img/frontimg2.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 60vh;
+      max-width: 100%;
+      font-family: "Klemer Display DEMO";
+      font-size: 60pt;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+  #frontimg p{
+      text-align: center;
+  }
+  #autumn2023{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Montserrat";
+      color: #a25d2b;
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+      font-weight: bolder;
+      font-size: 28pt;
+
+  }
+  #limited{
+      font-family: "Montserrat";
+      color: #a25d2b;
+      display: flex;
+      font-size: 15pt;
+      justify-content: center;
+  }
+
+
+#productslider1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+
+
+
+
+
+  }
+
+#greypants img:hover{
+    content: url("img/products/pantsgreyback.png");
+}
+#hoodie img:hover{
+    content: url("img/products/blacksweaterback.png");
+}
+#pantsshort img:hover{
+     content: url("img/products/pantsshortback.png");
+ }
+#cup img:hover{
+    content: url("img/products/cupback.png");
+}
+#sweater img:hover{
+    content: url("img/products/bluesweaterback.png");
+}
+  #productslider1 article{
+      display: flex;
+      padding: 5vh;
+      align-items: center;
+      justify-content: center;
+      margin: 5vh;
+      flex-direction: column;
+
+  }
+  #productslider1 img{
+      max-width: 40vh;
+      height: auto;
+
+  }
+
+
+
+
+
+#productslider2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+
+}
+#productslider2 article{
+    display: flex;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+    flex-direction: column;
+}
+#productslider2 img{
+    max-width: 40vh;
+    height: auto;
+}
+
+#productslider1 p{
+    font-family: "Klemer Display DEMO";
+    color: #a25d2b;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    font-size: 18pt;
+}
+
+@media screen and (max-width: 1500px) {
+    #productslider1{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #productslider2{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    #productslider1{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #productslider2{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main #frontimg{
+       display: none;
+    }
+}
+
+
+.price{
+    font-family: "Montserrat";
+    color: #a25d2b;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 11pt;
+}
+
+#productslider2 p{
+    font-family: "Klemer Display DEMO";
+    color: #a25d2b;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    font-size: 18pt;
+}
+ article .price{
+    font-family: "Montserrat";
+    color: #a25d2b;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+footer{
+    background-color: #a25d2b;
+    height: 120px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+footer p{
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: white;
+    padding-left: 20px;
+}
+
+
+/*about us */
+
+#aboutussec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   margin: 5vh;
+
+    font-family: "Montserrat";
+
+}
+
+#aboutsustxt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 25vh;
+
+
+
+
+}
+#aboutsustxt p{
+    margin: 10vh;
+}
+#aboutussec img{
+    width: 100%;
+    height: auto;
+}
+
+
+#aboutussec h2{
+    font-size: 80pt;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #a25d2b;
+    margin-top: 10vh;
+
+}

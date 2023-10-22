@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <title>KUE</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+    <link href="js.js" rel="script">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="aboutus.html">ABOUT US</a>
+
+    </nav>
+
+        <a href="index.html"><img id="logo" src="img/kue_logo.png"> </a>
+</header>
+
+
+
+<main>
+    <section id="frontimg">
+        <p id="titel">SPROUT,<br> A NEW BEGINNING</p>
+
+    </section>
+
+    <section>
+        <p id="autumn2023">AUTUMN 2023</p>
+
+        <p id="limited">Limited Edtiton</p>
+    </section>
+
+
+    <section id="productslider1">
+        <article id="greypants">  <img src="img/products/pantsgreyfront.png"><p>Grey Pants</p><h2 class="price"></h2>
+
+
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 1">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+                <!-- Specify the discount amount that applies to the item.
+                <input type="hidden" name="discount_rate" value="10">-->
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Color</label>
+                <select name="os0" id="os0">
+                    <option value="color">-
+                        </option>
+                    <option value="Grey">Grey</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Size</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">S - 18 CHF</option>
+                    <option value="M">M - 19 CHF</option>
+                    <option value="L">L - 20 CHF</option>
+                    <option value="XL">XL - 21 CHF</option>
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="S">
+                <input type="hidden" name="option_amount0" value="18">
+                <input type="hidden" name="option_select1" value="M">
+                <input type="hidden" name="option_amount1" value="19">
+                <input type="hidden" name="option_select2" value="L">
+                <input type="hidden" name="option_amount2" value="20">
+                <input type="hidden" name="option_select3" value="XL">
+                <input type="hidden" name="option_amount3" value="21">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </article>
+
+        <article id="hoodie">  <img src="img/products/blacksweaterfront.png"><p>Sweater</p><h2 class="price"></h2>
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 2">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Color</label>
+                <select name="os0" id="os0">
+                    <option value="color">
+                        -</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Size</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="S">
+                <input type="hidden" name="option_amount0" value="18">
+                <input type="hidden" name="option_select1" value="M">
+                <input type="hidden" name="option_amount1" value="19">
+                <input type="hidden" name="option_select2" value="L">
+                <input type="hidden" name="option_amount2" value="20">
+                <input type="hidden" name="option_select3" value="XL">
+                <input type="hidden" name="option_amount3" value="21">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </article>
+
+        <article id="pantsshort">  <img src="img/products/pantsshortfront.png"><p>Shorts</p><h2 class="price"></h2>
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 3">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Color</label>
+                <select name="os0" id="os0">
+                    <option value="color">
+                        -</option>
+                    <option value="grey">Grey</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Size</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="S">
+                <input type="hidden" name="option_amount0" value="15">
+                <input type="hidden" name="option_select1" value="M">
+                <input type="hidden" name="option_amount1" value="17">
+                <input type="hidden" name="option_select2" value="L">
+                <input type="hidden" name="option_amount2" value="20">
+                <input type="hidden" name="option_select3" value="XL">
+                <input type="hidden" name="option_amount3" value="22">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </article>
+
+
+</section>
+
+    <section id="productslider2">
+        <article id="keychain">  <img src="img/products/keychain.png"><p>Keychain</p><h2 class="price"></h2>
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 4">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Color</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">Silver</option>
+                    <option value="M">Gold</option>
+
+
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="Silver">
+                <input type="hidden" name="option_amount0" value="10">
+                <input type="hidden" name="option_select1" value="Gold">
+                <input type="hidden" name="option_amount1" value="15">
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Length</label>
+                <select name="os0" id="os0">
+                    <option value="color">
+                        -</option>
+                    <option value="3cm">3cm</option>
+                    <option value="5cm">5cm</option>
+                    <option value="10cm">10cm</option>
+                </select>
+
+
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </article>
+
+        <article id="cup">  <img src="img/products/cupfront.png"><p>Mug</p><h2 class="price"></h2>
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 5">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+                <!-- Provide a drop-down menu option field. -->
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Color</label>
+                <select name="os0" id="os0">
+                    <option value="color">
+                        -</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Print</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">Logo</option>
+                    <option value="M">Pattern</option>
+
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="Logo">
+                <input type="hidden" name="option_amount0" value="12">
+                <input type="hidden" name="option_select1" value="Pattern">
+                <input type="hidden" name="option_amount1" value="15">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+
+        </article>
+
+        <article id="sweater">  <img src="img/products/bluesweaterfront.png"><p>Sweater X</p><h2 class="price"></h2>
+            <form style="font-family: Montserrat; display: flex; flex-direction:column; padding-top: 20px" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+                <input type="hidden" name="business" value="rikuwettstein@gmail.com">
+
+                <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <!-- Continue shopping on the current webpage of the merchant site. -->
+                <input type="hidden" name="shopping_url" value="http://localhost:63342/KUE/index.html">
+                <!-- Specify details about the item that buyers will purchase. -->
+                <input type="hidden" name="item_name" value="KUE - Tshirt Autumn 2023 6">
+                <input type="hidden" name="amount" value="20">
+                <input type="hidden" name="currency_code" value="CHF">
+
+                <!-- Provide a drop-down menu option field. -->
+                <input type="hidden" name="on0" value="Color">
+                <label for="os0">Color</label>
+                <select name="os0" id="os0">
+                    <option value="color">
+                       -</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                </select>
+
+                <!-- Provide a drop-down menu option field with prices. -->
+                <input type="hidden" name="on1" value="Size">
+                <label for="os1">Size</label>
+                <select name="os1" id="os1">
+                    <option
+                            value="Size">-</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <!-- Specify the price that PayPal uses for each option. -->
+                <input type="hidden" name="option_index" value="1">
+                <input type="hidden" name="option_select0" value="S">
+                <input type="hidden" name="option_amount0" value="18">
+                <input type="hidden" name="option_select1" value="M">
+                <input type="hidden" name="option_amount1" value="19">
+                <input type="hidden" name="option_select2" value="L">
+                <input type="hidden" name="option_amount2" value="20">
+                <input type="hidden" name="option_select3" value="XL">
+                <input type="hidden" name="option_amount3" value="21">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit"
+                       src="img/button.png"
+                       alt="Add to Cart">
+                <img alt="" width="1" height="1"
+                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </article>
+
+    </section>
+
+</main>
+
+
+<footer>
+<section>
+    <p>Tel: +41 000 00 00</p>
+    <p>Mail: wasauimmmer@ichweissnöd.ch</p>
+    <p>Helpline</p>
+</section>
+
+
+</footer>
+</body>
+
+</html>
